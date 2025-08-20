@@ -1,3 +1,3 @@
 bucket = "remote-backend-2025"
-key    = "backend/dev/terraform.tfstate"
+key    = "backend/prod/terraform.tfstate"
 region = "us-east-1"
