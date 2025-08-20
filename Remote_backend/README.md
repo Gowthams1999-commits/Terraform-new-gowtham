@@ -86,6 +86,58 @@ If you need the old state, you must move/copy it manually.
 
 Backend configuration changed (new bucket, region, or credentials)
 
+
+🔹 What is a Partial Backend Configuration?
+
+Normally, you configure the backend fully inside your Terraform code (main.tf):
+
+terraform {
+  backend "s3" {
+    bucket         = "my-terraform-state"
+    key            = "prod/terraform.tfstate"
+    region         = "us-east-1"
+    dynamodb_table = "terraform-locks"
+  }
+}
+
+
+But sometimes you don’t want to hardcode everything in .tf files (for security or reusability reasons).
+Example: bucket name, region, credentials.
+
+👉 Instead, you declare only the backend type in code, and supply the rest during terraform init.
+That’s called partial backend configuration.
+
+🔹 Example of Partial Backend
+
+In main.tf:
+
+terraform {
+  backend "s3" {}
+}
+
+
+Here, no details are provided.
+When you run init, you supply them with --backend-config:
+
+terraform init \
+  -backend-config="bucket=my-terraform-state" \
+  -backend-config="key=prod/terraform.tfstate" \
+  -backend-config="region=us-east-1" \
+  -migrate-state
+
+
+or from a file:
+
+terraform init \
+  --backend-config=backend.hcl \
+  -migrate-state
+
+
+
+✅ Avoids hardcoding sensitive values (like bucket names, credentials).
+✅ Lets you reuse the same Terraform code across multiple environments (dev, test, prod).
+✅ Good for CI/CD pipelines where backend config is passed at runtime.
+
 You want to reset backend settings without migrating state
 
 ⚡ Summary
