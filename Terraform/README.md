@@ -70,6 +70,61 @@ backend "s3" { bucket = "my-terraform-state" key = "prod/terraform.tfstate" regi
 
 Note: Only constents only store in terraform block. Resources,input and output variable not allowed in terraform block
 
+🔹 Operators
+1. =
+
+👉 Exactly this version
+
+version = "= 3.5.0"
+
+
+Only 3.5.0 will be used.
+
+If provider updates to 3.6.0, Terraform won’t use it.
+
+2. !=
+
+👉 Not equal to this version
+
+version = "!= 3.5.0"
+
+
+Any version except 3.5.0.
+
+3. <, >, <=, >=
+
+👉 Comparison operators
+
+version = ">= 3.0.0"
+
+
+Any version 3.0.0 or higher.
+
+version = "< 4.0.0"
+
+
+Any version below 4.0.0.
+
+4. ~> (Pessimistic constraint)
+
+👉 Means approximately this version.
+
+Example:
+
+version = "~> 3.0"
+
+
+Allows ≥ 3.0.0 but < 4.0.0
+
+i.e., Terraform can use 3.1.0, 3.5.9, etc., but not 4.0.0.
+
+Another example:
+
+version = "~> 3.5"
+
+
+Allows ≥ 3.5.0 but < 3.6.0
+
 
 
 
