@@ -25,7 +25,7 @@ terraform {
   backend "s3" {
 
     bucket = "remote-backend-2025"
-    key    = "backend/dev/terraform.tfstate"
+    key    = "backend/terraform.tfstate"
     region = "us-east-1"
     use_lockfile = true
 
