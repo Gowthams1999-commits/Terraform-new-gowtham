@@ -1,3 +1,3 @@
-bucket = "terraform-course-lauromueller-remote-backend"
-key    = "04-backends/prod/state.tfstate"
-region = "eu-west-1"
+bucket = "remote-backend-2025"
+key    = "backend/dev/terraform.tfstate"
+region = "us-east-1"
