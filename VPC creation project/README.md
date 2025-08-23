@@ -136,3 +136,39 @@ provider → choose provider alias
 lifecycle → manage resource lifecycle
 
 provisioner → post-creation scripts (not recommended in production)
+
+# Local is terraform
+
+🔹 What is a locals block in Terraform?
+
+A locals block in Terraform is used to define local variables.
+
+These are temporary named values that you can reuse in your Terraform configuration.
+
+They help in avoiding repetition and make code more readable & maintainable.
+
+✅ Syntax
+locals {
+  app_name   = "myapp"
+  environment = "dev"
+  common_tags = {
+    Owner   = "DevOpsTeam"
+    Project = "TerraformDemo"
+  }
+}
+
+🔹 How to use locals
+
+You reference locals using:
+
+local.<NAME>
+
+Example 1: Using locals in resource
+resource "aws_s3_bucket" "example" {
+  bucket = "${local.app_name}-${local.environment}"
+  tags   = local.common_tags
+}
+
+
+👉 The bucket name will be: myapp-dev
+👉 Tags will be applied from common_tags.
