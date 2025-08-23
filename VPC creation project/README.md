@@ -137,7 +137,7 @@ lifecycle → manage resource lifecycle
 
 provisioner → post-creation scripts (not recommended in production)
 
-# Local is terraform
+# Local in terraform
 
 🔹 What is a locals block in Terraform?
 
