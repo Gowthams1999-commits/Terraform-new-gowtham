@@ -11,7 +11,6 @@ Attach IGW to the VPC for internet access.
 Public subnet → route via IGW.
 6. Create a Security Group
 Allow inbound traffic (e.g., SSH 22, HTTP 80).
-Allow outbound traffic to internet.
 7. Launch an EC2 Instance
 Place instance in the public subnet.
 8. Attach the security group.
