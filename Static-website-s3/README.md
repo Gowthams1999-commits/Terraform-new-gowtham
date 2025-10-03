@@ -10,3 +10,5 @@
 4. Upload index.html and error.html files to the bucket.
 
 5. Access the website using the S3 website endpoint
+
+![Uploading static-web-site.PNG…]()
