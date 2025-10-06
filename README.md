@@ -3,3 +3,4 @@
 3. Provider
 4. VPC creation project
 5. S3 static website Project
+6. Fetch AMI ID
