@@ -5,3 +5,4 @@
 5. S3 static website Project
 6. Fetch AMI ID
 7. Fetch VPC details
+8. Input variables, output variable and locals
