@@ -6,3 +6,4 @@
 6. Fetch AMI ID
 7. Fetch VPC details
 8. Input variables, output variable and locals
+9. Variable type (string, number, list, map, object, set and any)
