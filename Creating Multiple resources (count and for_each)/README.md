@@ -112,6 +112,4 @@ If you wish to give it a shot before looking into the detailed step-by-step and 
     }
     ```
 
-## Congratulations on Completing the Exercise!
 
-Great job on completing this exercise! You've taken a significant step in mastering Terraform by learning how to create multiple resources using the `count` argument. Your understanding of how to efficiently manage resources and avoid code duplication has improved. Keep up the good work!
