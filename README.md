@@ -9,3 +9,4 @@
 9. data type (string, number, list, map, object, set and any)
 10. Validation block and Condition
 11. Expression and Function
+12. Creating Multiple resources (count and for_each)
