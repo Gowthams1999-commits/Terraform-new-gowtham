@@ -1,8 +1,8 @@
 1. Terraform
 2. Remote_backend
 3. Provider
-4. VPC creation project
-5. S3 static website Project
+4. Project 1 : VPC creation project
+5. Project 2 : S3 static website Project
 6. Fetch AMI ID
 7. Fetch VPC details
 8. Input variables, output variable and locals
@@ -10,3 +10,4 @@
 10. Validation block and Condition
 11. Expression and Function
 12. Creating Multiple resources (count and for_each)
+13. Project 3 : IAM users
