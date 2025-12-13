@@ -21,7 +21,4 @@ It is designed for learning and hands-on practice with Terraform IAM resources.
 - AWS IAM
 - AWS CLI (for authentication)
 
----
-
-## 📂 Project Structure
 
