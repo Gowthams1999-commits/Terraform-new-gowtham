@@ -11,3 +11,4 @@
 11. Expression and Function
 12. Creating Multiple resources (count and for_each)
 13. Project 3 : IAM users
+14. Project 4: Lambda Function
