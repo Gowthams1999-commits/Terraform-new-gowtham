@@ -62,3 +62,7 @@ variable "instance_config" {
     volume_size   = 20
   }
 }
+
+## Author
+
+Gowtham S / DevOps Engineer
