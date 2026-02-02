@@ -145,3 +145,7 @@ You want to reset backend settings without migrating state
 -migrate-state → Moves state to new backend
 
 -reconfigure → Resets backend config, no state migration
+
+## Author
+
+Gowtham S / DevOps Engineer
