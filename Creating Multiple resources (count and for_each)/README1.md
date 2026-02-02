@@ -106,3 +106,6 @@ If you wish to give it a shot before looking into the detailed step-by-step and 
 5. Run `terraform apply` and inspect the changes.
 6. Make sure to destroy the resources after you complete all the steps!
 
+## Author
+
+Gowtham S / DevOps Engineer
