@@ -61,3 +61,6 @@ If you wish to give it a shot before looking into the detailed step-by-step and 
 4. Run a `terraform apply` command and inspect the changes. Wasn’t it easy to create extend our configuration without having to touch the `aws_instance.from_list` resource? This points towards a well-designed code!
 5. Make sure to destroy the resources after you complete all the steps!
 
+## Author
+
+Gowtham S / DevOps Engineer
