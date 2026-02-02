@@ -38,4 +38,6 @@ They make your code cleaner and more maintainable.
 | `instance_name` | Computed name for EC2 instances      |
 
 
+## Author
 
+Gowtham S / DevOps Engineer
