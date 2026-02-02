@@ -12,3 +12,5 @@
 12. Creating Multiple resources (count and for_each)
 13. Project 3 : IAM users
 14. Project 4: Lambda Function
+15. Project 5: Modules --> Producation based VPC
+16. Project 6: EKS (Elastic Kubernetes service)
