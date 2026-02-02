@@ -29,3 +29,6 @@ Terraform supports ternary conditional expressions, similar to many programming 
 
 condition ? true_value : false_value
 
+## Author
+
+Gowtham S / DevOps Engineer
