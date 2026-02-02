@@ -12,3 +12,7 @@
 5. Access the website using the S3 website endpoint
 
 ![Uploading static-web-site.PNG…]()
+
+## Author
+
+Gowtham S / DevOps Engineer
