@@ -93,6 +93,6 @@ If you wish to give it a shot before looking into the detailed step-by-step and 
     }
     ```
 
-## Congratulations on Completing the Exercise!
+## Author
 
-Great job on completing this exercise! Your ability to manipulate and analyze data in lists using Terraform has improved considerably! Keep up the good work and continue to enhance your skills in Terraform. Keep practicing and happy learning!
+Gowtham S / DevOps Engineer
