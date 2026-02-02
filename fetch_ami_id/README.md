@@ -6,3 +6,7 @@ Terraform can then use that fetched information within its own configuration fil
 
 For example, suppose you want to create an EC2 instance in AWS, but it must be launched inside a specific VPC that was created manually in the AWS console.
 In that case, Terraform can use a data so
+
+## Author
+
+Gowtham S / DevOps Engineer
