@@ -6,3 +6,14 @@ It follows Terraform best practices and is designed to be reusable, configurable
 
 This module can be used independently or as part of a larger Terraform infrastructure setup.
 
+Module Structure
+
+module-name/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+└── README.md
+
+Author
+
+Gowtham | DevOps Engineer
