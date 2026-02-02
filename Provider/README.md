@@ -12,3 +12,7 @@ Can configure multiple providers or multiple instances of the same provider (wit
 
 ✅ In short:
 A provider is like a bridge between Terraform and a service (AWS, Azure, Kubernetes, etc.), enabling Terraform to manage infrastructure on that service.
+
+## Author
+
+Gowtham S / DevOps Engineer
