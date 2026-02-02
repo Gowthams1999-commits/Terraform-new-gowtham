@@ -171,3 +171,7 @@ resource "aws_s3_bucket" "example" {
 
 👉 The bucket name will be: myapp-dev
 👉 Tags will be applied from common_tags.
+
+## Author
+
+Gowtham S / DevOps Engineer
