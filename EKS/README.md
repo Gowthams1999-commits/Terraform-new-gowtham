@@ -23,3 +23,7 @@ Security Groups
 Kubernetes Worker Nodes
 
 ✅ EKS cluster runs in private subnets for better security.
+
+## Author
+
+Gowtham S / DevOps Engineer
